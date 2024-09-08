@@ -5,20 +5,20 @@ const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
    SESSION_ID: process.env.SESSION_ID || "",
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ", //YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "2348039607375,2349162411207,4915252819677",
+   BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;The bosses😎😎👽", //YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "263774918784,2349162411207,4915252819677",
    ANTICALL: process.env.ANTICALL || false,
-   PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
-   TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
+   PRESENCE: process.env.PRESENCE || "fetching thy data⚓😎👽", // "unavailable", "available", "composing", "recording", "paused"
+   TIME_ZONE: process.env.TIME_ZONE || "Africa/Harare",
    LOGS: toBool(process.env.LOGS) || true,
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
    WARN_COUNT: 3,
-   AUTHOR: process.env.AUTHOR || "ғxᴏᴘ-ᴍᴅ",
+   AUTHOR: process.env.AUTHOR || "Mabhosiedu RoynJK😎👽ᴅ",
    ANTIWORDS: process.env.ANTIWORDS || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍᴅ",
-   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
+   PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍ😎👽ᴅ",
+   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to this group don't ever think about leaving otherwise😭💪🥵😎",
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you jokes hope to never see u again even after life😁😁🏁👽😎",
    ANTILINK: toBool(process.env.ANTI_LINK) || false,
    HEROKU: toBool(process.env.HEROKU) || false,
    AUTO_READ: toBool(process.env.AUTO_READ) || false,
@@ -29,7 +29,7 @@ module.exports = {
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
    REMOVEBG: process.env.REMOVEBG || "",
    DATABASE_URL: DATABASE_URL,
-   STATUS_SAVER: toBool(process.env.STATUS_SAVER) || true,
+   STATUS_SAVER: toBool(process.env.STATUS_SAVER) || false,
    HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
    HEROKU_API_KEY: process.env.HEROKU_API_KEY,
    DATABASE:
